@@ -1,0 +1,131 @@
+#app .header{
+  background-color: #e6e6e6;
+  height: 60px;
+  padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#app .cursorPointer{
+  cursor: pointer;
+}
+
+#app .searchBox {
+  width: 30%;
+  height: 25px;
+  padding: 5px;
+}
+
+#app .iconDiv {
+  width: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#app .sideNav {
+  width: 15%;
+  height: 89.5vh;
+  border-right-color: #bfbfbf;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+#app .flex{
+  display: flex;
+}
+
+#app .body{
+  width: 93%;
+}
+
+
+#app .bodyHeader{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  padding: 0px 40px;
+  border-bottom: 1px solid gray;
+}
+
+#app .mail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 45px;
+  padding: 0px 40px;
+  border-bottom: 1px solid gray;
+}
+
+#app .fromName{
+  width: 150px;
+  margin-left: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+#app .mailContent{
+  font-size: 14px;
+  font-weight: 300;
+  width: 361px;
+  height: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#app .tab{
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  border-right: 1px solid gray;
+}
+
+#app .bodyHeader:nth-child(4) {
+  border-right: none;
+}
+
+#app .mailHeader{
+  height: 40px;
+  padding: 0px 36px;
+  display: flex;
+  align-items: center;
+  background-color: #bfbfbf;
+}
+
+#app .ml-5{
+  margin-left: 20px;
+}
+
+#app .sendButton{
+  height: 35px;
+  width: 120px;
+  background-color: #3399ff;
+  color:#ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#app .buttonDiv {
+  margin: 25px;
+}
+
+#app .sideNavButton{
+  height: 25px;
+  margin: 25px;
+}
+
+#app .logoutDiv{
+  position: absolute;
+  top: 50px;
+  padding: 13px 20px;
+  background-color: #ffffff;
+}
+
+#app .noData{
+  text-align: center;
+  margin: 15px;
+}
